@@ -1,6 +1,14 @@
 html,
 body {
     padding: 0;
+    font-family: 'Merriweather',
+        serif;
+
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .carousel .carousel-inner .carousel-item {
@@ -22,8 +30,13 @@ body {
 }
 
 .nav {
-    margin: 25px 0;
+    margin: 5px 0;
 }
+
+.navbar-default.scrolled {
+    background: #000;
+}
+
 
 .banner {
     -webkit-background-size: cover;
@@ -31,15 +44,115 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
-
-
 }
 
 .carousel-caption {
     padding-bottom: 150px;
     font-family: poppins;
+    font-size: 1.6vw;
 }
 
 .carousel-caption h1 {
     font-size: 4em;
+}
+
+#tab {
+    margin: 100px 0;
+}
+
+.tabbed {
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+
+
+span .fas {
+    text-align: center;
+    color: #379AE6;
+    font-size: 30px;
+    background: #E9ECEF;
+    border-radius: 50%;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+
+.thumbnail a img {
+    height: auto;
+    width: 10%;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #379AE6;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.caption p {
+
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+.caption .btn {
+    padding: .5rem .3rem;
+    border: 1px solid #fff;
+}
+
+.thumbnail a:hover .caption {
+    opacity: 0.8;
+}
+
+.thumbnail a .caption p {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+}
+
+#portfolio {
+    margin: 50px 0;
+    flex: 1;
+
+}
+
+.bg-dark {
+    background: transparent !important;
+}
+
+.scrolled {
+    background: rgb(49, 44, 44) !important;
+}
+
+#about-section {
+    background-image: url('/images/pointx-7.jpg');
+    padding: 50px;
+    color: #fff;
+    background-attachment: fixed;
+
+}
+
+.jumbotron {
+    margin-bottom: 0;
 }

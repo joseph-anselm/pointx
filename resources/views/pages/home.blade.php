@@ -45,72 +45,137 @@
 </div>
 </section>
 
-<section id="tabbed">
-  <div class="container">
+<section id="tab">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3 col-sm-6">
+      <div class="col-xl-3 col-6  tabbed">
+        <span><i class="fas fa-sort-amount-up"></i></span>
+        <h2>Software Deployment</h2>
+      </div>
+
+      <div class="col-xl-3 col-6  tabbed">
         <span><i class="fas fa-user-cog"></i></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
+        <h2>Brands and Marketing</h2>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col-xl-3 col-6 tabbed">
         <span><i class="fas fa-user-cog"></i></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
-
+        <h2>Website Development</h2>
       </div>
 
-      <div class="col-md-3 col-sm-6">
-        <span>
-          <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>
-        </span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
-
-      </div>
-
-      <div class="col-md-3 col-sm-6">
+      <div class="col-xl-3 col-6 tabbed">
         <span><i class="fas fa-user-cog"></i></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
-
+        <h2>Result Oriented SEO</h2>
       </div>
-
-      
     </div>
   </div>
 
-   <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3 col-sm-6">
+      <div class="col-xl-3 col-6  tabbed">
+        <span><i class="fas fa-sort-amount-up"></i></span>
+        <h2>Software Deployment</h2>
+      </div>
+
+      <div class="col-xl-3 col-6  tabbed">
         <span><i class="fas fa-user-cog"></i></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
+        <h2>Brands and Marketing</h2>
       </div>
 
-      <div class="col-md-3 col-sm-6">
+      <div class="col-xl-3 col-6 tabbed">
         <span><i class="fas fa-user-cog"></i></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
-
+        <h2 class="text-center">Website Development</h2>
       </div>
 
-      <div class="col-md-3 col-sm-6">
-        <span>
-          <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>
-        </span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
-
-      </div>
-
-      <div class="col-md-3 col-sm-6">
+      <div class="col-xl-3 col-6 tabbed">
         <span><i class="fas fa-user-cog"></i></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste iure id nisi facilis harum, repellendus laudantium ducimus optio necessitatibus!</p>
-
+        <h2>Result Oriented SEO</h2>
       </div>
-
-      
     </div>
   </div>
+
+</section>
+
+<section id="portfolio">
 
   
 
 </section>
+
+<section>
+  <div class="jumbotron text-center">
+  <h1 class="display-4 text-center">Our Projects</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  
+
+  <div class="row" id="portfolio">
+  <div class="col-md-3 col-sm-6 col-6">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="{{asset('images/smats.jpg')}}" alt="Lights" style="width:100%">
+        <div class="caption">
+          <p href="#" class="btn btn-outline-primary">lorem ipsum..</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 col-6">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="{{asset('images/dazzlings.jpg')}}" alt="Nature" style="width:100%">
+        <div class="caption">
+          <p href="#" class="btn btn-outline-primary">lorem ipsum..</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 col-6">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="{{asset('images/smats.jpg')}}" alt="Fjords" style="width:100%">
+        <div class="caption">
+          <p href="#" class="btn btn-outline-primary">lorem ipsum..</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-6">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="{{asset('images/dazzlings.jpg')}}" alt="Fjords" style="width:100%">
+        <div class="caption">
+          <p href="#" class="btn btn-outline-primary">lorem ipsum..</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  
+</div>
+</section>
+
+<section id="about-section">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-5 col-12">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente illo doloremque id doloribus quidem, cupiditate modi commodi qui, vel, tempore magnam facere voluptatibus aliquam.</p>
+       <a type="button" class="btn btn-outline-primary" href="#">About Us</a>
+      </div>
+      <div class="col-xl-7 col-12">
+
+      </div>
+
+    </div>  
+  </div>
+</section>
+
+
 
 
 
